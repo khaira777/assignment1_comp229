@@ -4,13 +4,13 @@
 
   <!--jumbotron Main Content-->
   <div class="container">
-    <div class="jumbotron">
+  <div class="jumbotron">
       <h1 class="display-4"><%= title %></h1>
-      <p class="lead">Welcome to <%= title %></p>
       <hr class="my-4">
-    </div>
+      <%- include('./partials/' + file + '.ejs') %>
   </div>
-
+  </div>
+  
 <%- include partials/bottom_nav.ejs %>
 
 <%- include partials/footer.ejs %>
