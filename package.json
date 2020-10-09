@@ -1,5 +1,5 @@
 {
-  "name": "assignment1",
+  "name": "portfolio_assignment1",
   "version": "0.0.1",
   "scripts": {
     "start": "node ./server.js"
@@ -24,5 +24,13 @@
   "main": "server.js",
   "devDependencies": {},
   "author": "Gurkirat Khaira",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaira777/assignment1_comp229.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khaira777/assignment1_comp229/issues"
+  },
+  "homepage": "https://github.com/khaira777/assignment1_comp229#readme"
 }
