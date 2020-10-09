@@ -2,15 +2,21 @@
 
 <!--main nav-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <!--website logo-->
     <a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt="Logo" width="48" height="48"> Gurkirat Khaira</a>
+
+    <!--button for nav bar that appears for small screen devices -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!--main nav bar links-->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
 
+        <!--checking which page is active to set the active property to the nav bar item-->
         <% if (title == "Home") {%>
         <li class="nav-item active">
           <% } else { %>

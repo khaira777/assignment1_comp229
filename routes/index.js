@@ -40,6 +40,7 @@ router.get('/services', function (req, res, next) {
 
 /* GET contact me page. */
 router.get('/contact', function (req, res, next) {
+  /*rendering directly at the contact because we have seperate page for contact */
   res.render('contact', {
     title: 'Contact Me'
   });

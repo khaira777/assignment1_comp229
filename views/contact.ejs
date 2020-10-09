@@ -1,5 +1,6 @@
 <!--Gurkirat Singh Khaira - #301112565 - 9 Oct 2020 -->
 
+<!--partial files imported-->
 <%- include partials/header.ejs %>
 
 <%- include partials/main_nav.ejs %>
@@ -8,9 +9,15 @@
 <div class="container">
   <div class="jumbotron">
     <h1 class="display-4"><%= title %></h1>
+
+    <!--horizontal line-->
     <hr class="my-4">
+
     <div class="row">
+    <!-- Divided page in 8:4 to fit content-->
       <div class="col-sm-8">
+
+      <!--Form to get data-->
         <form action="javascript:metric()" method="get" >
           <div class="form-group">
             <label for="name">Your Name</label>
@@ -34,6 +41,8 @@
           <input class="btn btn-warning" type="reset" id="reset" value="Reset">
         </form>
       </div>
+
+      <!--Details displayed in other part-->
       <div class="col-sm-4">
         <p><strong> Details</strong></p>
         Gurkirat Singh Khaira<br>
